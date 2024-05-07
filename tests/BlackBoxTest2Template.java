@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.fail;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 
-class BlackBoxTest_Template {
+class BlackBoxTest_Template1 {
 
 	@Test
 	void test() {
