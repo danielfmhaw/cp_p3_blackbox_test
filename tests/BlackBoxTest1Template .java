@@ -113,7 +113,22 @@ class BlackBoxTest_Template {
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
-
+	@Test
+	void testKlasse14(){
+		Color expected = null;
+		int x = 0;
+		int y = 101;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
+	@Test
+	void testKlasse7a(){
+		Color expected = null;
+		int x = 99;
+		int y = -1;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
 	// ------- DO NOT TOUCH BELOW THIS LINE -------
 	@AfterAll
 	static void tearDownAfterClass() throws Exception {
