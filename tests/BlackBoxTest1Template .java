@@ -1,7 +1,5 @@
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
-
-
 import java.awt.*;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -13,7 +11,6 @@ class BlackBoxTest_Template {
 		Color expected = Color.RED;
 		int x = -5;
 		int y = -1;
-		boolean b = false;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
@@ -24,7 +21,6 @@ class BlackBoxTest_Template {
 		Color expected = Color.YELLOW;
 		int x = -5;
 		int y = 10;
-		boolean b = false;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
@@ -33,7 +29,6 @@ class BlackBoxTest_Template {
 		Color expected = Color.YELLOW;
 		int x = -5;
 		int y = 11;
-		boolean b = false;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
@@ -42,7 +37,6 @@ class BlackBoxTest_Template {
 		Color expected = Color.YELLOW;
 		int x = 10;
 		int y = -1;
-		boolean b = false;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
@@ -51,7 +45,6 @@ class BlackBoxTest_Template {
 		Color expected = Color.YELLOW;
 		int x = 10;
 		int y = 10;
-		boolean b = false;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
@@ -60,7 +53,6 @@ class BlackBoxTest_Template {
 		Color expected = Color.YELLOW;
 		int x = 10;
 		int y = 11;
-		boolean b = false;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
@@ -69,7 +61,6 @@ class BlackBoxTest_Template {
 		Color expected = Color.YELLOW;
 		int x = 100;
 		int y = -1;
-		boolean b = false;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
@@ -78,7 +69,6 @@ class BlackBoxTest_Template {
 		Color expected = Color.YELLOW;
 		int x = 100;
 		int y = 10;
-		boolean b = false;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
@@ -87,7 +77,6 @@ class BlackBoxTest_Template {
 		Color expected = Color.GREEN;
 		int x = 100;
 		int y = 11;
-		boolean b = false;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
@@ -97,34 +86,30 @@ class BlackBoxTest_Template {
 		Color expected = null;
 		int x = -21;
 		int y = 0;
-		boolean b = false;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
 	@Test
 	void testKlasse11(){
-		Color expected = Color.RED;
-		int x = -5;
-		int y = -1;
-		boolean b = false;
+		Color expected = null;
+		int x = 177;
+		int y = 0;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
 	@Test
 	void testKlasse12(){
-		Color expected = Color.RED;
-		int x = -5;
-		int y = -1;
-		boolean b = false;
+		Color expected = null;
+		int x = 0;
+		int y = -2;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
 	@Test
 	void testKlasse13(){
-		Color expected = Color.RED;
-		int x = -5;
-		int y = -1;
-		boolean b = false;
+		Color expected = null;
+		int x = 0;
+		int y = 101;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
