@@ -18,6 +18,10 @@ class BlackBoxTest_Template1 {
 //		assertEquals(expected, actual);
 		fail("not implemented yet");
 	}
+	@Test
+	void test1() {
+
+	}
 
 	
 	
