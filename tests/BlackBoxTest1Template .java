@@ -8,206 +8,131 @@ class BlackBoxTest_Template {
 
 	@Test
 	void testKlasse1(){
-		Color expected = Color.RED;
-		int x = -5;
-		int y = -1;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(-5, -1);
+		assertEquals(Color.RED, actual);
 	}
 
 
 	@Test
 	void testKlasse2(){
-		Color expected = Color.YELLOW;
-		int x = -5;
-		int y = 10;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(-5, 10);
+		assertEquals(Color.YELLOW, actual);
 	}
 	@Test
 	void testKlasse3(){
-		Color expected = Color.YELLOW;
-		int x = -5;
-		int y = 11;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(-5, 11);
+		assertEquals(Color.YELLOW, actual);
 	}
 	@Test
 	void testKlasse4(){
-		Color expected = Color.YELLOW;
-		int x = 10;
-		int y = -1;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(10, -1);
+		assertEquals(Color.YELLOW, actual);
 	}
 	@Test
 	void testKlasse5(){
-		Color expected = Color.YELLOW;
-		int x = 10;
-		int y = 10;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(10, 10);
+		assertEquals(Color.YELLOW, actual);
 	}
 	@Test
 	void testKlasse6(){
-		Color expected = Color.YELLOW;
-		int x = 10;
-		int y = 11;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(10, 11);
+		assertEquals(Color.YELLOW, actual);
 	}
 	@Test
 	void testKlasse7(){
-		Color expected = Color.YELLOW;
-		int x = 100;
-		int y = -1;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(100, -1);
+		assertEquals(Color.YELLOW, actual);
 	}
 	@Test
 	void testKlasse8(){
-		Color expected = Color.YELLOW;
-		int x = 100;
-		int y = 10;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(100, 10);
+		assertEquals(Color.YELLOW, actual);
 	}
 	@Test
 	void testKlasse9(){
-		Color expected = Color.GREEN;
-		int x = 100;
-		int y = 11;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(100,11);
+		assertEquals(Color.GREEN, actual);
 	}
 	//Exceptions
 	@Test
 	void testKlasse10(){
-		Color expected = null;
-		int x = 117;
-		int y = 101;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(117, 101);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse11(){
-		Color expected = null;
-		int x = 117;
-		int y = 66;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(117, 66);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse12(){
-		Color expected = null;
-		int x = 117;
-		int y = 5;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(117, 5);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse13(){
-		Color expected = null;
-		int x = 117;
-		int y = -1;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(117, -1);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse14(){
-		Color expected = null;
-		int x = 117;
-		int y = -2;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(117, -2);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse15(){
-		Color expected = null;
-		int x = 110;
-		int y = -2;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(110, -2);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse16(){
-		Color expected = null;
-		int x = 50;
-		int y = -2;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(50, -2);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse17(){
-		Color expected = null;
-		int x = -5;
-		int y = -2;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(-5, -2);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse18(){
-		Color expected = null;
-		int x = -25;
-		int y = -2;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(-25, -2);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse19(){
-		Color expected = null;
-		int x = -25;
-		int y = -1;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(-25, -1);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse20(){
-		Color expected = null;
-		int x = -25;
-		int y = 5;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(-25, 5);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse21(){
-		Color expected = null;
-		int x = -25;
-		int y = 45;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(-25, 45);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse22(){
-		Color expected = null;
-		int x = -25;
-		int y = 120;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(-25, 120);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse23(){
-		Color expected = null;
-		int x = -5;
-		int y = 120;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(-5, 120);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse24(){
-		Color expected = null;
-		int x = 37;
-		int y = 120;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(37, 120);
+		assertEquals(null, actual);
 	}
 	@Test
 	void testKlasse25(){
-		Color expected = null;
-		int x = 115;
-		int y = 120;
-		Color actual = BlackBox1.G(x, y);
-		assertEquals(expected, actual);
+		Color actual = BlackBox1.G(115, 120);
+		assertEquals(null, actual);
 	}
 
 	// ------- DO NOT TOUCH BELOW THIS LINE -------
