@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
-import java.awt.*;
+
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -11,8 +11,6 @@ class BlackBoxTest_Template {
 		Color actual = BlackBox1.G(-5, -1);
 		assertEquals(Color.RED, actual);
 	}
-
-
 	@Test
 	void testKlasse2(){
 		Color actual = BlackBox1.G(-5, 10);
