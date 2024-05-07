@@ -84,51 +84,132 @@ class BlackBoxTest_Template {
 	@Test
 	void testKlasse10(){
 		Color expected = null;
-		int x = -21;
-		int y = 0;
+		int x = 117;
+		int y = 101;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
 	@Test
 	void testKlasse11(){
 		Color expected = null;
-		int x = 177;
-		int y = 0;
+		int x = 117;
+		int y = 66;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
 	@Test
 	void testKlasse12(){
 		Color expected = null;
-		int x = 0;
-		int y = -2;
+		int x = 117;
+		int y = 5;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
 	@Test
 	void testKlasse13(){
 		Color expected = null;
-		int x = 0;
-		int y = 101;
+		int x = 117;
+		int y = -1;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
 	@Test
 	void testKlasse14(){
 		Color expected = null;
-		int x = 0;
-		int y = 101;
+		int x = 117;
+		int y = -2;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
 	@Test
-	void testKlasse7a(){
+	void testKlasse15(){
 		Color expected = null;
-		int x = 99;
+		int x = 110;
+		int y = -2;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
+	@Test
+	void testKlasse16(){
+		Color expected = null;
+		int x = 50;
+		int y = -2;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
+	@Test
+	void testKlasse17(){
+		Color expected = null;
+		int x = -5;
+		int y = -2;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
+	@Test
+	void testKlasse18(){
+		Color expected = null;
+		int x = -25;
+		int y = -2;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
+	@Test
+	void testKlasse19(){
+		Color expected = null;
+		int x = -25;
 		int y = -1;
 		Color actual = BlackBox1.G(x, y);
 		assertEquals(expected, actual);
 	}
+	@Test
+	void testKlasse20(){
+		Color expected = null;
+		int x = -25;
+		int y = 5;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
+	@Test
+	void testKlasse21(){
+		Color expected = null;
+		int x = -25;
+		int y = 45;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
+	@Test
+	void testKlasse22(){
+		Color expected = null;
+		int x = -25;
+		int y = 120;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
+	@Test
+	void testKlasse23(){
+		Color expected = null;
+		int x = -5;
+		int y = 120;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
+	@Test
+	void testKlasse24(){
+		Color expected = null;
+		int x = 37;
+		int y = 120;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
+	@Test
+	void testKlasse25(){
+		Color expected = null;
+		int x = 115;
+		int y = 120;
+		Color actual = BlackBox1.G(x, y);
+		assertEquals(expected, actual);
+	}
+
 	// ------- DO NOT TOUCH BELOW THIS LINE -------
 	@AfterAll
 	static void tearDownAfterClass() throws Exception {
