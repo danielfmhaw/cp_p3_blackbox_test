@@ -36,6 +36,11 @@ class BlackBoxTest_Template2 {
 		assertEquals(Color.YELLOW, actual);
 	}
 	@Test
+	void test3false() {
+		Color actual = getActual(5,-1,false);
+		assertEquals(Color.YELLOW, actual);
+	}
+	@Test
 	void test4false() {
 		Color actual = getActual(5,1,false);
 		assertEquals(Color.YELLOW, actual);
@@ -148,7 +153,7 @@ class BlackBoxTest_Template2 {
 	// ------- DO NOT TOUCH BELOW THIS LINE -------
 	@AfterAll
 	static void tearDownAfterClass() throws Exception {
-		assertTrue(BlackBox1.evalEqClasses(), "Not all equivalence classes covert!");
+		assertTrue(BlackBox2.evalEqClasses(), "Not all equivalence classes covert!");
 	}
 
 }
