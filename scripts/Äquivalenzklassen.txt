@@ -1,19 +1,19 @@
-Äquivalenzklassen:
+Äquivalenzklassen mit Grenzwerten:
 
 Links Von X:
-1. x<0 & y<0 => RED, Bsp.: (-5,-1)
-2. x<0 & y<=10 & y>=0 => YELLOW, Bsp.: (-5,10)
-3. x<0 &  y>10 => YELLOW, Bsp.: (-5,11)
+1. x<0 & y<0 => RED, Bsp.: (-5,-1) -> Grenzwerte: x={-1,0}; y={-1,0}
+2. x<0 & y<=10 & y>=0 => YELLOW, Bsp.: (-5,10) -> Grenzwerte: x={-1,0}; y={-1,0,10,11}
+3. x<0 &  y>10 => YELLOW, Bsp.: (-5,11) -> Grenzwerte: x={-1,0}; y={10,11}
 
 In der Mitte von X:
-4. x>=0 & x<100 & y<0 => YELLOW, Bsp.: (10,-1)
-5. x>=0 & x<100 & y<=10 & y>=0 => YELLOW, Bsp.: (10,10)
-6. x>=0 & x<100 & y>10  => YELLOW, Bsp.: (10,11)
+4. x>=0 & x<100 & y<0 => YELLOW, Bsp.: (10,-1) -> Grenzwerte: x={-1,0,99,100}; y={-1,0}
+5. x>=0 & x<100 & y<=10 & y>=0 => YELLOW, Bsp.: (10,10) -> Grenzwerte: x={-1,0,99,100}; y={-1,0,10,11}
+6. x>=0 & x<100 & y>10  => YELLOW, Bsp.: (10,11) -> Grenzwerte: x={-1,0,99,100}; y={10,11}
 
 Rechts von X:
-7. x>=100 & y<0 => YELLOW, Bsp.: (100,-1)
-8. x>=100 & y<=10 & y>=0 => YELLOW, Bsp.: (100,10)
-9. x>=100&  y>10 => GREEN, Bsp.: (100,11)
+7. x>=100 & y<0 => YELLOW, Bsp.: (100,-1) -> Grenzwerte: x={99,100}; y={-1,0}
+8. x>=100 & y<=10 & y>=0 => YELLOW, Bsp.: (100,10) -> Grenzwerte: x={99,100}; y={-1,0,10,11}
+9. x>=100&  y>10 => GREEN, Bsp.: (100,11) -> Grenzwerte: x={99,100}; y={10,11}
 
 Exceptions:
 1. x<-20, Bsp.: (-21,0)
